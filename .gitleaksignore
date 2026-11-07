@@ -1,0 +1,6 @@
+# False positive (generic-api-key): packaging/model-small.json pins the public
+# SHA-256 of tokenizer.json from Systran/faster-whisper-small. It is an integrity
+# hash, not a credential. First line covers history scans (gitleaks git), second
+# line covers working-tree scans (gitleaks dir).
+1f9349ea52962e7dedd2fbc680fe50e88da15170:packaging/model-small.json:generic-api-key:7
+packaging/model-small.json:generic-api-key:7
