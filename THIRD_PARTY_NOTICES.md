@@ -3,7 +3,7 @@
 ARCA Dicta is an extracted integration with hyprwhspr. No assertion of
 exclusive human authorship or independent creation is made. ARCA Dicta's
 contribution is MIT licensed under [LICENSE](LICENSE), Copyright (c) 2026
-ARCA Dicta contributors. That notice does not replace third-party ownership.
+Adrián Infantes Romero. That notice does not replace third-party ownership.
 
 ## hyprwhspr
 

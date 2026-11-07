@@ -175,6 +175,6 @@ The exact compatibility baseline is hyprwhspr 1.49.0-1. Its full license notice
 is retained in [LICENSES/hyprwhspr-MIT.txt](LICENSES/hyprwhspr-MIT.txt); see
 [third-party notices](THIRD_PARTY_NOTICES.md).
 
-ARCA Dicta's contribution is licensed under the [MIT License](LICENSE),
-Copyright (c) 2026 ARCA Dicta contributors. Third-party rights and notices
+This project's contribution is licensed under the [MIT License](LICENSE),
+Copyright (c) 2026 Adrián Infantes Romero. Third-party rights and notices
 remain separate. Model redistribution has not been approved.
