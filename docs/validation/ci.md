@@ -7,7 +7,7 @@ successful GitHub Actions run.
 
 ## Remote status and test artifacts
 
-Use the [Validate source installer workflow](https://github.com/infantesromeroadrian/arca-dicta/actions/workflows/ci.yml)
+Use the [Validate source installer workflow](https://github.com/infantesromeroadrian/fluflu-linux/actions/workflows/ci.yml)
 to inspect the live result for the exact commit being evaluated. This document
 does not assert a remote PASS or copy a changing workflow status into source.
 The run's commit, conclusion and uploaded checksums identify its result.

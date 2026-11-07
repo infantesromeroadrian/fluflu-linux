@@ -37,7 +37,7 @@ python -B tools/build_release.py --output "$build_dir"
 cd "$build_dir"
 ```
 
-Como alternativa, cuando haya una ejecución correcta de [Actions](https://github.com/infantesromeroadrian/arca-dicta/actions/workflows/ci.yml)
+Como alternativa, cuando haya una ejecución correcta de [Actions](https://github.com/infantesromeroadrian/fluflu-linux/actions/workflows/ci.yml)
 para el commit elegido, descarga su artefacto `source-installer-<SHA del commit>`
 y descomprime el paquete de artefactos de GitHub. Contiene el tarball, su checksum
 y el manifiesto. Estos archivos descargables de pruebas se conservan 14 días;

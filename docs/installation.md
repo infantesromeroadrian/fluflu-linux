@@ -39,7 +39,7 @@ python -B tools/build_release.py --output "$build_dir"
 cd "$build_dir"
 ```
 
-Alternatively, when a successful [Actions run](https://github.com/infantesromeroadrian/arca-dicta/actions/workflows/ci.yml)
+Alternatively, when a successful [Actions run](https://github.com/infantesromeroadrian/fluflu-linux/actions/workflows/ci.yml)
 is available for the intended commit, download its `source-installer-<commit SHA>`
 artifact and unpack the GitHub artifact bundle. It contains the tarball,
 checksum and manifest. These downloadable test artifacts are retained for
