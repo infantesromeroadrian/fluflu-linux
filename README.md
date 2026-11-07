@@ -1,9 +1,12 @@
-# ARCA Dicta
+# FluFlu for Linux
 
 Technical dictation for Hyprland, developed as an extension to
-[hyprwhspr](https://github.com/goodroot/hyprwhspr).
+[hyprwhspr](https://github.com/goodroot/hyprwhspr). Linux counterpart of
+[FluFlu](https://github.com/infantesromeroadrian/fluflu), the native macOS
+push-to-talk dictation app. Formerly ARCA Dicta: environment variables, install
+paths and artifact names keep the `ARCA_DICTA_` / `arca-dicta` prefix.
 
-[Español](README.es.md) · [Install and recover](docs/installation.md) · [Architecture](docs/architecture/pipeline.html) · [CI and test artifacts](https://github.com/infantesromeroadrian/arca-dicta/actions/workflows/ci.yml)
+[Español](README.es.md) · [Install and recover](docs/installation.md) · [Architecture](docs/architecture/pipeline.html) · [CI and test artifacts](https://github.com/infantesromeroadrian/fluflu-linux/actions/workflows/ci.yml)
 
 **Development snapshot: 0.1.0-alpha.1. No GitHub Release or released installer yet.**
 
@@ -23,7 +26,7 @@ Python environment, provider credentials or container product.
 ## Try the development snapshot
 
 Build an archive from this checkout, or download `source-installer-<commit SHA>`
-from a successful [Actions run](https://github.com/infantesromeroadrian/arca-dicta/actions/workflows/ci.yml)
+from a successful [Actions run](https://github.com/infantesromeroadrian/fluflu-linux/actions/workflows/ci.yml)
 when available. Actions artifacts are test snapshots, not an accepted alpha or
 a GitHub Release. Native hyprwhspr **1.49.0-1** and Python **3.14** must already
 be installed. The [installation guide](docs/installation.md) covers the build,
@@ -172,6 +175,6 @@ The exact compatibility baseline is hyprwhspr 1.49.0-1. Its full license notice
 is retained in [LICENSES/hyprwhspr-MIT.txt](LICENSES/hyprwhspr-MIT.txt); see
 [third-party notices](THIRD_PARTY_NOTICES.md).
 
-ARCA Dicta's contribution is licensed under the [MIT License](LICENSE),
-Copyright (c) 2026 ARCA Dicta contributors. Third-party rights and notices
+This project's contribution is licensed under the [MIT License](LICENSE),
+Copyright (c) 2026 Adrián Infantes Romero. Third-party rights and notices
 remain separate. Model redistribution has not been approved.

@@ -1,9 +1,13 @@
-# ARCA Dicta
+# FluFlu para Linux
 
 Dictado técnico para Hyprland, desarrollado como complemento de
-[hyprwhspr](https://github.com/goodroot/hyprwhspr).
+[hyprwhspr](https://github.com/goodroot/hyprwhspr). Es la versión para Linux de
+[FluFlu](https://github.com/infantesromeroadrian/fluflu), la app nativa de dictado
+push-to-talk para macOS. Antes se llamaba ARCA Dicta: las variables de entorno,
+las rutas de instalación y los nombres de artefacto conservan el prefijo
+`ARCA_DICTA_` / `arca-dicta`.
 
-[English](README.md) · [Instalación y reversión](docs/installation.es.md) · [Arquitectura](docs/architecture/pipeline.html) · [CI y artefactos de prueba](https://github.com/infantesromeroadrian/arca-dicta/actions/workflows/ci.yml)
+[English](README.md) · [Instalación y reversión](docs/installation.es.md) · [Arquitectura](docs/architecture/pipeline.html) · [CI y artefactos de prueba](https://github.com/infantesromeroadrian/fluflu-linux/actions/workflows/ci.yml)
 
 **Snapshot de desarrollo: 0.1.0-alpha.1. Todavía no hay GitHub Release ni instalador publicado como release.**
 
@@ -21,7 +25,7 @@ pesos, entornos Python, credenciales ni un producto Docker.
 ## Probar el snapshot de desarrollo
 
 Construye el archivo desde este checkout o descarga `source-installer-<SHA del commit>`
-de una ejecución correcta de [Actions](https://github.com/infantesromeroadrian/arca-dicta/actions/workflows/ci.yml),
+de una ejecución correcta de [Actions](https://github.com/infantesromeroadrian/fluflu-linux/actions/workflows/ci.yml),
 cuando esté disponible. Es un artefacto de pruebas, no una alpha aceptada ni una
 GitHub Release. La [guía](docs/installation.es.md) explica la construcción y
 verificación. Desde el archivo verificado y extraído:
